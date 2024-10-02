@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-container {
+  background: #282c34;
+  height: 70px;
+  color: white;
+  width: -webkit-fill-available;
+}
+
+
+.homebtn {
+  color: white;
+  padding-left: 20px;
+}
+
+
+.container {
+  text-align: center;
+  background-color: #282C34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 40px;
+}
+
+.container-body {
+  text-align: center;
+  background-color: #282C34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-top: 40px;
+}
+
+.product-brand {
+  display: block;
+  font-size: 14px;
+  text-align: left;
+}
+
+.product-title {
+  text-align: center;
+  width: 200px;
+  color: white;
+  display: block;
+  font-size: 17px;
+  margin: 10px 0;
+}
+
+.product-image {
+  width: 200px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #282c34;
+  padding: 10px;
+  box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.5),
+    0px -3px 7px 1px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-brand {
+  font-size: 40px;
+  font-weight: 450;
+  text-decoration: none;
+  padding-left: 20px;
+  color: initial;
+}
+
+.nav-brand:hover {
+  text-decoration: none;
+}
+
+.nav-brand:active {
+  color: var(--primary-1);
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-weight: normal;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  padding: 13px 20px;
+  min-width: 75px;
+}
+
+.nav-item:hover a {
+  text-decoration: none;
+  color: #a8a8a8;
+}
+
+.nav-item a.active {
+  font-weight: bold;
+}
+
+.nav-cart {
+  width: 65px;
+  text-align: center;
+  padding: 10px 25px;
+}
+
+.dropdown-menu.show {
+  background-color: #282C34;
+  box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.5)
+}
+
+.dropdown-toggle {
+  background-color: #282C34;
+  border: 1px solid white;
+}
+
+.dropdown-toggle:hover {
+  background-color: #282C34;
+  border: 1px solid white;
+}
+
+.btn-primary {
+  background-color: #282C34;
+  border: 1px solid white;
+}
+
+.btn.show {
+  background-color: #282C34;
+  border: 1px solid white;
+}
+
+.btn-success {
+  margin: 20px;
+  background-color: #282C34;
+  border: 1px solid white;
+}
+
+.details {
+  font-size: 16px;
+}
+
+.photo {
+  padding-bottom: 40px;
+}
